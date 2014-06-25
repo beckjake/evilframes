@@ -28,7 +28,7 @@ function in the module, "frame".
 
 It takes 4 positional-only arguments:
     - A frame object, or None if you want it to be the top of the stack
-    - A code object (you can pull this out of any function's __code__)
+    - A code object (you can pull this out of any function's \_\_code\_\_)
     - A dict object (the globals).
     - A dict object (the locals).
 
