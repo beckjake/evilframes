@@ -45,7 +45,7 @@ static struct PyModuleDef evilframemodule = {
     PyModuleDef_HEAD_INIT,
     "evilframe",
     NULL, /* docs are for wusses */
-    -1, /*sate is for wusses too */
+    -1, /* state is for wusses too */
     EvilFrameMethods
 };
 
